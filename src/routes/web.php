@@ -3,6 +3,8 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TestController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\TopController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +17,8 @@ use App\Http\Controllers\TestController;
 |
 */
 Route::get('test', [TestController::class, 'test'])->name('test');
+Route::get('users', [UserController::class, 'index'])->name('users');
+Route::get('top', [TopController::class, 'index'])->name('top');
 
 Route::get('/', function () {
     return view('welcome');
