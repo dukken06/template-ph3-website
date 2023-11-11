@@ -20,7 +20,7 @@
 
             <!-- Page Heading -->
             @if (isset($header))
-                <header class="bg-white shadow fixed top-0 left-0 right-0 z-50">
+                <header class="bg-white shadow fixed top-[64px] left-0 right-0 z-50">
                     <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                         {{ $header }}
                     </div>
@@ -28,7 +28,7 @@
             @endif
 
             <!-- Page Content -->
-            <main class="mt-[34px]">
+            <main class="mt-[162px]">
                 {{ $slot }}
             </main>
         </div>
