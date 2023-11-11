@@ -117,7 +117,7 @@
     <div class="border-y-[#eee] border-y-[1px] py-[80px]">
       <div class="text-center pb-[30px]">
         <img src="{{ asset('images/logo.svg') }}" alt="POSSE" class="block m-auto mb-[20px]">
-        <a href="https://posse-ap.com/" target="_blank" rel="noopener noferrer" class="">
+        <a href="https://posse-ap.com/" target="_blank" rel="noopener noferrer" class="text-[#ADADAD] font-bold">
           POSSE公式サイト
         </a>
       </div>
@@ -136,7 +136,7 @@
         </ul>
       </div>
     </div>
-    <div class="text-center pt-[50px]">
+    <div class="text-center pt-[50px] text-[#ADADAD] font-bold">
       <small lang="en">
         ©2022 POSSE
       </small>
